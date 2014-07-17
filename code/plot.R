@@ -2,10 +2,9 @@
 library(ggplot2)
 
 # loading data
-data <- read.csv('data/data.csv')
+data_plot <- read.csv('data/data.csv')
 
 # standardizing
-data_plot <- data[5:nrow(data), ]  # first 4 == total
 data_plot$date <- as.Date(data_plot$date)
 data_plot$value <- as.numeric(sub(",", "", data_plot$value))
 

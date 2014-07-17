@@ -21,6 +21,7 @@ getData <- function() {
                     'deaths in Gaza',
                     'rockets launched from Gaza',
                     'deaths in Israel')
+    x <- x[5:nrow(x), ]  # first 4 == total
     for (i in 1:(nrow(x)/4)) {
         if (i == 1) {
             x$date <- NA
