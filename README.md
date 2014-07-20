@@ -7,6 +7,11 @@ It generates the following plot:
 !['Bar plot with figures.'](https://raw.githubusercontent.com/luiscape/gaza_toll/master/plot.png)
 
 
+Correlations Plots
+------------------
+
+
+
 Sources
 -------
 United Nations Office for the Coordination of Humanitarian Affairs (Palestinian deaths); Israel Defense Forces (Palestinian rocket attacks, Israeli airstrikes, Israeli deaths)
